@@ -12,3 +12,8 @@ Impact :
 *DDos attacks and money spent for prevention of DDos
 *Restrict access to user files
 
+Solution
+Machine Learning techniques to detect malware file
+Analyzing Protable Executale (PE) file headers to classify  a file as malware
+Random Forest classification algorithm can be used to classify the malware file using information from PE headers.
+
