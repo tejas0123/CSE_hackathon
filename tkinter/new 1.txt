@@ -1,0 +1,10 @@
+def search(signature):
+    mycursor = mydb.cursor()
+    query = 'select * from siganturesdb.hash_table where Hashcode = %s;'
+    mycursor.execute(query,[signature])
+    output = mycursor.fetchall()
+    if(len(output)):
+        print(output)
+        print("is malicious")
+	else:
+		randomForest(filePath)
